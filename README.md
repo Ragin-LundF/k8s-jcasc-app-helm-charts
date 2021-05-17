@@ -13,10 +13,10 @@ More information:
 
 # How to add a new chart version
 
-In the parent directory of the helm chart:
+In the parent directory of the helm chart (reddot in this example):
 
 ```bash
-helm package <chartname>
+helm package reddot
 helm repo index .
 ```
 
@@ -25,12 +25,12 @@ Then add the `index.yaml` and the `.tgz` file to this repository.
 To use the repository as helm repository, it needs to be added with:
 
 ```bash
-helm repo add reddotrepo 'https://github.com/Ragin-LundF/k8s-jcasc-app-helm-charts/main/reddot'
+helm repo add reddotrepo 'https://raw.githubusercontent.com/Ragin-LundF/k8s-jcasc-app-helm-charts/main/reddot'
 helm repo update
 ```
 
 Now the chart should be available:
 
 ```bash
-helm search reddot
+helm search repo reddot
 ```
