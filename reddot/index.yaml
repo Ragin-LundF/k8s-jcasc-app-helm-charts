@@ -3,12 +3,12 @@ entries:
   reddot:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-05-20T00:26:02.644426+02:00"
+    created: "2021-05-20T00:36:36.577627+02:00"
     description: Helm chart for reddot application
-    digest: 083a5ad9e0ed1a94bbdf9c73bded893a177c4a5e7c75c02f1b6c1ca914d41f31
+    digest: 8fd0130a5052cc19816998da2b3c53a48417add746ece4242bb852f046de5a5a
     name: reddot
     type: application
     urls:
     - reddot-0.1.0.tgz
     version: 0.1.0
-generated: "2021-05-20T00:26:02.643556+02:00"
+generated: "2021-05-20T00:36:36.576705+02:00"
